@@ -17,7 +17,7 @@
 								<xs:complexType>
 									<!--level 4: details of the address-->
 									<xs:sequence>
-										<xs:element name="Number" type="xs:string"/>
+										<xs:element name="Number" type="xs:int"/>
 										<xs:element name="Street" type="xs:string"/>
 										<xs:element name="City" type="xs:string"/>
 										<xs:element name="State" type="xs:string"/>
@@ -30,7 +30,7 @@
 						</xs:sequence>
 						
 						<!--level 3: optional attribute-->
-						<xs:attribute name="Rating" type="xs:decimal" use="optional"/>
+						<xs:attribute name="Rating" type="xs:float" use="optional"/>
 					</xs:complexType>
 				</xs:element>
 			</xs:sequence>
