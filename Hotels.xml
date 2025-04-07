@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Hotels xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 
+	<!--different type of hotel entries to make sure the implementation is correct-->
 	<Hotel Rating="4.3">
 		<Name>The Westin Tempe</Name>
 		<Phone>480-968-8885</Phone>
