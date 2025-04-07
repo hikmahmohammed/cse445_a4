@@ -1,6 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<Hotels xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-		xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/hikmahmohammed/cse445_a4/main/Hotels.xsd">
+<Hotels xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 
 	<Hotel Rating="4.3">
 		<Name>The Westin Tempe</Name>
