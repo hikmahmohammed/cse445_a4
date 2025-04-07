@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Hotels xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-		xsi:noNamespaceSchemaLocation="C:\Users\hikma\source\repos\WcfService2\ConsoleApp1\ConsoleApp1\Project_Files\Hotel.xsd">
+		xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/hikmahmohammed/cse445_a4/main/Hotels.xsd">
 
 	<Hotel Rating="4.3" NearestAirport="Sky Harbor International Airport">
 		<Name>The Westin Tempe</Name>
