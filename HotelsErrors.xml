@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Hotel>
+	<!-- E1: wrong root element name-->
+	<Hotel Rating="4.3">
+		<!-- E2: missing nearest airport attribute -->
+		<Name>The Westin Tempe</Name>
+		<!-- E3: missing phone element-->
+		<Address>
+			<!-- E4: no closing tag for Address -->
+			<Number>11</Number>
+			<Street>E 7th St</Street>
+			<City>Tempe</City>
+			<State>AZ</State>
+			<Zip>85281</Zip>
+		</Hotel>
+
+	<Hotel Rating="4.4" NearestAirport="Chicago Midway International Airport">
+		<Name>Hyatt Regency McCormick Place Chicago</Name>
+		<Name>Hyatt Regency</Name>
+		<!-- E5: 2 Name elements -->
+		<Phone>312-567-1234</Phone>
+		<Address>
+			<Number>2233</Number>
+			<Street>S Martin Luther King Dr</Street>
+			<City>Chicago</City>
+			<State>IL</State>
+			<Zip>60616</Zip>
+		</Address>
+	</Hotel>
+
+	<Hotel Rating="4.6" NearestAirport="Los Angeles International Airport">
+		<Name>The Ritz-Carlton, Los Angeles</Name>
+		<Phone>213-743-8800</Phone>
+		<Address>
+			<Number>900</Number>
+			<Street>W Olympic Blvd</Street>
+			<City>Los Angeles</City>
+			<State>CA</State>
+			<Zip>90015</Zip>
+		</Address>
+	</Hotel>
+
+	<Hotel NearestAirport="Sky Harbor International Airport">
+		<Name>Hampton Inn And Suites Phoenix Downtown</Name>
+		<Phone>602-710-1240</Phone>
+		<Address>
+			<Number>77</Number>
+			<Street>E Polk St</Street>
+			<City>Phoenix</City>
+			<State>AZ</State>
+			<Zip>85004</Zip>
+		</Address>
+	</Hotel>
+
+	<Hotel Rating="4.2" NearestAirport="Hartsfield-Jackson Atlanta International Airport">
+		<Name>Omni Atlanta Hotel at Centennial Park</Name>
+		<Phone>800-843-6664</Phone>
+		<Phone>404-659-0000</Phone>
+		<Address>
+			<Number>100</Number>
+			<Street>Marietta St NW,</Street>
+			<City>Atlanta</City>
+			<State>GA</State>
+			<Zip>30303</Zip>
+		</Address>
+	</Hotel>
+</Hotel>
