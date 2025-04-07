@@ -1,5 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<Hotel>
+<Hotel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xsi:noNamespaceSchemaLocation="C:\Users\hikma\source\repos\WcfService2\ConsoleApp1\ConsoleApp1\Project_Files\Hotel.xsd">
 	<!-- E1: wrong root element name-->
 	<Hotel Rating="4.3">
 		<!-- E2: missing nearest airport attribute -->
