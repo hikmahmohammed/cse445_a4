@@ -1,11 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<xs:schema id="Hotels"
-    targetNamespace="http://tempuri.org/Hotel.xsd"
-    elementFormDefault="qualified"
-    xmlns="http://tempuri.org/Hotel.xsd"
-    xmlns:mstns="http://tempuri.org/Hotel.xsd"
-    xmlns:xs="http://www.w3.org/2001/XMLSchema"
->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           elementFormDefault="qualified">
+	
 	<!--level 1: hotels -->
 	<xs:element name="Hotels">
 		<xs:complexType>
@@ -27,12 +23,14 @@
 										<xs:element name="State" type="xs:string"/>
 										<xs:element name="Zip" type="xs:string"/>
 									</xs:sequence>
+									<!--level 3: required attribute-->
+									<xs:attribute name="NearestAirport" type="xs:string" use="required"/>
 								</xs:complexType>
 							</xs:element>
 						</xs:sequence>
-						<!--level 3: optional attributes-->
+						
+						<!--level 3: optional attribute-->
 						<xs:attribute name="Rating" type="xs:decimal" use="optional"/>
-						<xs:attribute name="NearestAirport" type="xs:string" use="required"/>	
 					</xs:complexType>
 				</xs:element>
 			</xs:sequence>

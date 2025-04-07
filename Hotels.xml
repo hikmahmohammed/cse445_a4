@@ -2,10 +2,10 @@
 <Hotels xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 		xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/hikmahmohammed/cse445_a4/main/Hotels.xsd">
 
-	<Hotel Rating="4.3" NearestAirport="Sky Harbor International Airport">
+	<Hotel Rating="4.3">
 		<Name>The Westin Tempe</Name>
 		<Phone>480-968-8885</Phone>
-		<Address>
+		<Address NearestAirport="Sky Harbor International Airport">
 			<Number>11</Number>
 			<Street>E 7th St</Street>
 			<City>Tempe</City>
@@ -14,10 +14,10 @@
 		</Address>
 	</Hotel>
 
-	<Hotel NearestAirport="Seattle-Tacoma International Airport">
+	<Hotel>
 		<Name>Element Seattle Redmond</Name>
 		<Phone>425-636-9942</Phone>
-		<Address>
+		<Address NearestAirport="Seattle-Tacoma International Airport">
 			<Number>15220</Number>
 			<Street>NE Shen St Suite 100</Street>
 			<City>Redmond</City>
@@ -26,10 +26,10 @@
 		</Address>
 	</Hotel>
 
-	<Hotel Rating="4.4" NearestAirport="Chicago Midway International Airport">
+	<Hotel Rating="4.4">
 		<Name>Hyatt Regency McCormick Place Chicago</Name>
 		<Phone>312-567-1234</Phone>
-		<Address>
+		<Address NearestAirport="Chicago Midway International Airport">
 			<Number>2233</Number>
 			<Street>S Martin Luther King Dr</Street>
 			<City>Chicago</City>
@@ -38,10 +38,10 @@
 		</Address>
 	</Hotel>
 
-	<Hotel Rating="4.6" NearestAirport="Los Angeles International Airport">
+	<Hotel Rating="4.6">
 		<Name>The Ritz-Carlton, Los Angeles</Name>
 		<Phone>213-743-8800</Phone>
-		<Address>
+		<Address NearestAirport="Los Angeles International Airport">
 			<Number>900</Number>
 			<Street>W Olympic Blvd</Street>
 			<City>Los Angeles</City>
@@ -50,10 +50,10 @@
 		</Address>
 	</Hotel>
 
-	<Hotel NearestAirport="Sky Harbor International Airport">
+	<Hotel>
 		<Name>Hampton Inn And Suites Phoenix Downtown</Name>
 		<Phone>602-710-1240</Phone>
-		<Address>
+		<Address NearestAirport="Sky Harbor International Airport">
 			<Number>77</Number>
 			<Street>E Polk St</Street>
 			<City>Phoenix</City>
@@ -62,11 +62,11 @@
 		</Address>
 	</Hotel>
 
-	<Hotel Rating="4.2" NearestAirport="Hartsfield-Jackson Atlanta International Airport">
+	<Hotel Rating="4.2">
 		<Name>Omni Atlanta Hotel at Centennial Park</Name>
 		<Phone>800-843-6664</Phone>
 		<Phone>404-659-0000</Phone>
-		<Address>
+		<Address NearestAirport="Hartsfield-Jackson Atlanta International Airport">
 			<Number>100</Number>
 			<Street>Marietta St NW,</Street>
 			<City>Atlanta</City>
@@ -75,10 +75,10 @@
 		</Address>
 	</Hotel>
 
-	<Hotel Rating="4.5" NearestAirport="San Francisco International Airport">
+	<Hotel Rating="4.5">
 		<Name>Fairmont San Francisco</Name>
 		<Phone>415-772-5000</Phone>
-		<Address>
+		<Address NearestAirport="San Francisco International Airport">
 			<Number>950</Number>
 			<Street>Mason St</Street>
 			<City>San Francisco</City>
@@ -87,10 +87,10 @@
 		</Address>
 	</Hotel>
 
-	<Hotel Rating="4.6" NearestAirport="Phoenix Sky Harbor International Airport">
+	<Hotel Rating="4.6">
 		<Name>Arizona Biltmore, LXR Hotels And Resorts</Name>
 		<Phone>602-955-6600</Phone>
-		<Address>
+		<Address NearestAirport="Phoenix Sky Harbor International Airport">
 			<Number>2400</Number>
 			<Street>E Missouri Ave</Street>
 			<City>Phoenix</City>
@@ -99,11 +99,11 @@
 		</Address>
 	</Hotel>
 
-	<Hotel NearestAirport="Miami International Airport">
+	<Hotel>
 		<Name>Fontainebleau Miami Beach</Name>
 		<Phone>800-548-8886</Phone>
 		<Phone>305-538-2000</Phone>
-		<Address>
+		<Address NearestAirport="Miami International Airport">
 			<Number>4441</Number>
 			<Street>Collins Ave</Street>
 			<City>Miami Beach</City>
@@ -112,10 +112,10 @@
 		</Address>
 	</Hotel>
 
-	<Hotel Rating="4.4" NearestAirport="Seattle-Tacoma International Airport">
+	<Hotel Rating="4.4">
 		<Name>The Edgewater Hotel</Name>
 		<Phone>206-792-5959</Phone>
-		<Address>
+		<Address NearestAirport="Seattle-Tacoma International Airport">
 			<Number>2411</Number>
 			<Street>Alaskan Way</Street>
 			<City>Seattle</City>
